@@ -3,8 +3,8 @@
     <author>EDGE Gaming / Castiga</author>
     <version>1.0.0.0</version>
     <title>
-        <en>Sosnovka Uzhe Videl</en>
-        <de>Sosnovka Uzhe Videl</de>
+        <en>Crater Bay</en>
+        <de>Crater Bay</de>
         <fr>Sosnovka Uzhe Videl</fr>
         <it>Sosnovka Uzhe Videl</it>
         <es>Sosnovka Uzhe Videl</es>
@@ -23,7 +23,7 @@
         <tr>Sosnovka Uzhe Videl</tr>
     </title>
     <description>
-        <en><![CDATA[Welcome to Sosnovka Revamped.
+        <en><![CDATA[Welcome to Crater Bay.
 
 From the desire to craft a small development and test card for modding, Minibrunn has emerged: a 50ha large map with all FS19 features.
 
@@ -98,8 +98,8 @@ Lista zmian 1.0.0.0:
     <maps>
         <map id="Sosnovka Uzhe Videl" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
             <title>
-                <en>Sosnovka Uzhe Videl</en>
-                <de>Sosnovka Uzhe Videl</de>
+                <en>Crater Bay</en>
+                <de>Crater Bay</de>
                 <fr>Sosnovka Uzhe Videl</fr>
                 <it>Sosnovka Uzhe Videl</it>
                 <es>Sosnovka Uzhe Videl</es>
@@ -118,7 +118,7 @@ Lista zmian 1.0.0.0:
                 <tr>Sosnovka Uzhe Videl</tr>
             </title>
             <description>
-                <en><![CDATA[Sosnovka Revamped. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
+                <en><![CDATA[Crater Bay. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
         Selling prices will fluctuate and show up on the PDA / Statistics.
         The Buildings have automatic lighting.]]></en>
                 <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
