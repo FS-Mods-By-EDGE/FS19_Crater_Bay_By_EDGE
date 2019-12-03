@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="46">
+<modDesc descVersion="47">
     <author>EDGE Gaming / Castiga</author>
     <version>1.0.0.0</version>
     <title>
@@ -92,7 +92,7 @@ Lista zmian 1.0.0.0:
         <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
         <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
     </description>
-    <iconFilename>Uzhe Videl_icon.dds</iconFilename>
+    <iconFilename>Crater_Bay_icon.dds</iconFilename>
     <multiplayer supported="true" requiredModName="FS19_Sosnovka_By_EDGE"/>
     <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <maps>
@@ -150,7 +150,7 @@ Lista zmian 1.0.0.0:
                 <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
                 <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
             </description>
-            <iconFilename>Uzhe Videl_preview.dds</iconFilename>
+            <iconFilename>Crater_Bay_preview.dds</iconFilename>
         </map>
     </maps>
     <storeItems>
