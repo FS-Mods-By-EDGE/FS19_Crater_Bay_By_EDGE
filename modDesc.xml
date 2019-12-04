@@ -1,37 +1,50 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
 <modDesc descVersion="47">
     <author>EDGE Gaming / Castiga</author>
+    <translationby>Castiga</translationby>
     <version>1.0.0.0</version>
     <title>
         <en>Crater Bay</en>
         <de>Crater Bay</de>
-        <fr>Sosnovka Uzhe Videl</fr>
-        <it>Sosnovka Uzhe Videl</it>
-        <es>Sosnovka Uzhe Videl</es>
-        <br>Sosnovka Uzhe Videl</br>
-        <cs>Sosnovka Uzhe Videl</cs>
-        <ct>Sosnovka Uzhe Videl</ct>
-        <cz>Sosnovka Uzhe Videl</cz>
-        <nl>Sosnovka Uzhe Videl</nl>
-        <hu>Sosnovka Uzhe Videl</hu>
+        <fr>Crater Bay</fr>
+        <it>Crater Bay</it>
+        <es>Crater Bay</es>
+        <br>Crater Bay</br>
+        <cs>Crater Bay</cs>
+        <ct>Crater Bay</ct>
+        <cz>Crater Bay</cz>
+        <nl>Crater Bay</nl>
+        <hu>Crater Bay</hu>
         <jp>すでに見たソスノフカ</jp>
-        <kr>Sosnovka Uzhe Videl</kr>
-        <pl>Sosnovka Uzhe Videl</pl>
-        <pt>Sosnovka Uzhe Videl</pt>
-        <ro>Sosnovka Uzhe Videl</ro>
-        <ru>Sosnovka Uzhe Videl</ru>
-        <tr>Sosnovka Uzhe Videl</tr>
+        <kr>Crater Bay</kr>
+        <pl>Crater Bay</pl>
+        <pt>Crater Bay</pt>
+        <ro>Crater Bay</ro>
+        <ru>Crater Bay</ru>
+        <tr>Crater Bay</tr>
     </title>
     <description>
         <en><![CDATA[Welcome to Crater Bay.
 
-From the desire to craft a small development and test card for modding, Minibrunn has emerged: a 50ha large map with all FS19 features.
+Crater Bay has emerged! a Huge Island Inspired by Nosy Be island (Antsiranana Province) off the North West coast of Madagascar with all FS19 features.
+You will find two Big main farm yards, with several smaller areas to Customize it just how you like it. this makes it ideal for multiplayer, but also great for Singleplayer with you being able to buy a second farm.
+The two Main farms are fitted with Automatic Lighting.
 
-As a special feature, a green floor is built in to create store photos that can be painted using the Landscaping Tool. In the shop there is also a green wall (without collision), which can be placed to create a green box. The vehicle dealer has an extra ramp for presentation purposes (screen shots)
+Climate of Crater Bay:
+On the north-west coast, temperatures are high all year round, but being that it's directly exposed to the northwest monsoon, the rains are more abundant, so much so that they exceed 2,000 mm (80 in) in some areas.
+In Nosy-Be, an island located a short distance from the coast of Ambanja, the decrease in temperatures from May to August is limited.
+Not only the period from November to March is rainy, but it's also hot and muggy. We are in the austral summer, a season when the country is divided into two: in the north, the north-west monsoon prevails, bringing heavy rains along the north-west coast, where rainfall is around 400/500 mm (16/20 in) per month in January and February.
 
-But even those who only want to be a farmer are in good hands here. The map offers five fields, four can be combined to form a 10 ha huge one. The forester manager is also taken care of. To the west of the map is a forest area that offers many trees for cutting down. The operation of a BGA is possible.
+The sun in Nosy Be shines very often in the dry period, from May to October. On average, there are almost 3,000 sunshine hours per year.
+In this part of the coast, the sea temperature is high throughout the year
 
-The terrain is surrounded by a mountain range. The only access road is unfortunately blocked by a landslide. Fortunately, there is you as the supplier of idyllic Minibrunn. So, what are you waiting for? Have fun!
+The map is 4x size with loads of fields, and customizing opportunities.
+The map offers five fields, four can be combined to form a 10 ha huge one.
+The forester manager is also taken care of. The map Contains loads of Forest areas that offers enough trees for any Logger.
+The Offers several Bio Gas Plants (BGA) for the silage farmer.
+As a special feature, a green floor is built in to create store photos that can be painted using the Landscaping Tool. In the shop there is also a green wall (without collision), which can be placed to create a green box.
+
+The terrain is surrounded by a mountain range. The only access road is unfortunately blocked by a landslide. Fortunately, there is you as the supplier of idyllic Crater Bay. So, what are you waiting for? Have fun!
 
 Features:
 - greenbox by soil texture and placeable wall
@@ -46,8 +59,16 @@ Features:
 - mission system (including transport orders)
 - livestock is not permanently installed
 
+-The map fully supports "Seasons" and "Courseplay Six".
+
+- Consider Getting the Seasons GEO: Crater Bay Mod
+Seasons GEO: Crater Bay is a GEO mod for Seasons that simulates agriculture in Crater Bay, Nosy Be (Antsiranana Province) on the Northern Coast of Madagascar.
+with realistic temperatures, wind & rainfall taken from wather statistics from this area.
+
 Changelog 1.0.0.0:
-- Initial Realease.]]></en>
+- Initial Realease.
+Upcomming Updates 1.5.0.0:
+- Adding "RICE" as a crop to the map.]]></en>
         <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
 Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
 Die Gebäude verfügen über eine automatische Beleuchtung.
@@ -78,44 +99,44 @@ Budynki mają automatyczne oświetlenie.
 
 Lista zmian 1.0.0.0:
 - Pierwsze wydanie.]]></pl>
-        <it>Benvenuto all’Sosnovka Uzhe Videl!</it>
-        <es>¡Te damos la bienvenida a Sosnovka Uzhe Videl!</es>
-        <br>Bem-vindo à Sosnovka Uzhe Videl!</br>
+        <it>Benvenuto all’Crater Bay!</it>
+        <es>¡Te damos la bienvenida a Crater Bay!</es>
+        <br>Bem-vindo à Crater Bay!</br>
         <cs>欢迎来到紫檀大庄园！</cs>
         <ct>歡迎來到紫檀大莊園！</ct>
-        <cz>Vítejte v Sosnovka Uzhe Videl!</cz>
-        <nl>Welkom op de Sosnovka Uzhe Videl!</nl>
-        <hu>Üdvözöl Sosnovka Uzhe Videl!</hu>
+        <cz>Vítejte v Crater Bay!</cz>
+        <nl>Welkom op de Crater Bay!</nl>
+        <hu>Üdvözöl Crater Bay!</hu>
         <jp>へようこそ すでに見たソスノフカ</jp>
-        <kr>Sosnovka Uzhe Videl에 오신 것을 환영합니다!</kr>
+        <kr>Crater Bay에 오신 것을 환영합니다!</kr>
         <pt>Bem-vindo à Estância Lapacho!</pt>
-        <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
-        <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
+        <ro>Bun venit la Crater Bay!</ro>
+        <tr>Crater Bay'ya hoş geldin!</tr>
     </description>
     <iconFilename>Crater_Bay_icon.dds</iconFilename>
-    <multiplayer supported="true" requiredModName="FS19_Sosnovka_By_EDGE"/>
+    <multiplayer supported="true" requiredModName="FS19_Crater_Bay_By_EDGE"/>
     <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <maps>
-        <map id="Sosnovka Uzhe Videl" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
+        <map id="Crater Bay" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
             <title>
                 <en>Crater Bay</en>
                 <de>Crater Bay</de>
-                <fr>Sosnovka Uzhe Videl</fr>
-                <it>Sosnovka Uzhe Videl</it>
-                <es>Sosnovka Uzhe Videl</es>
-                <br>Sosnovka Uzhe Videl</br>
-                <cs>Sosnovka Uzhe Videl</cs>
-                <ct>Sosnovka Uzhe Videl</ct>
-                <cz>Sosnovka Uzhe Videl</cz>
-                <nl>Sosnovka Uzhe Videl</nl>
-                <hu>Sosnovka Uzhe Videl</hu>
+                <fr>Crater Bay</fr>
+                <it>Crater Bay</it>
+                <es>Crater Bay</es>
+                <br>Crater Bay</br>
+                <cs>Crater Bay</cs>
+                <ct>Crater Bay</ct>
+                <cz>Crater Bay</cz>
+                <nl>Crater Bay</nl>
+                <hu>Crater Bay</hu>
                 <jp>エスタンシアラパチョ</jp>
-                <kr>Sosnovka Uzhe Videl</kr>
-                <pl>Sosnovka Uzhe Videl</pl>
-                <pt>Sosnovka Uzhe Videl</pt>
-                <ro>Sosnovka Uzhe Videl</ro>
-                <ru>Sosnovka Uzhe Videl</ru>
-                <tr>Sosnovka Uzhe Videl</tr>
+                <kr>Crater Bay</kr>
+                <pl>Crater Bay</pl>
+                <pt>Crater Bay</pt>
+                <ro>Crater Bay</ro>
+                <ru>Crater Bay</ru>
+                <tr>Crater Bay</tr>
             </title>
             <description>
                 <en><![CDATA[Crater Bay. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
@@ -136,19 +157,19 @@ Lista zmian 1.0.0.0:
                 <pl><![CDATA[Stacja Sprzedaży. Tutaj możesz sprzedać wszystko, co chcesz, od zbiorów upraw po nasiona i nawozy.
         Ceny sprzedaży będą się zmieniać i pojawiać na PDA / statystykach.
         Budynki mają automatyczne oświetlenie.]]></pl>
-                <it>Benvenuto all’Sosnovka Uzhe Videl!</it>
-                <es>¡Te damos la bienvenida a Sosnovka Uzhe Videl!</es>
-                <br>Bem-vindo à Sosnovka Uzhe Videl!</br>
+                <it>Benvenuto all’Crater Bay!</it>
+                <es>¡Te damos la bienvenida a Crater Bay!</es>
+                <br>Bem-vindo à Crater Bay!</br>
                 <cs>欢迎来到紫檀大庄园！</cs>
                 <ct>歡迎來到紫檀大莊園！</ct>
-                <cz>Vítejte v Sosnovka Uzhe Videl!</cz>
-                <nl>Welkom op de Sosnovka Uzhe Videl!</nl>
-                <hu>Üdvözöl Sosnovka Uzhe Videl!</hu>
+                <cz>Vítejte v Crater Bay!</cz>
+                <nl>Welkom op de Crater Bay!</nl>
+                <hu>Üdvözöl Crater Bay!</hu>
                 <jp>エスタンシアラパチョにようこそ！</jp>
-                <kr>Sosnovka Uzhe Videl에 오신 것을 환영합니다!</kr>
+                <kr>Crater Bay에 오신 것을 환영합니다!</kr>
                 <pt>Bem-vindo à Estância Lapacho!</pt>
-                <ro>Bun venit la Sosnovka Uzhe Videl!</ro>
-                <tr>Sosnovka Uzhe Videl'ya hoş geldin!</tr>
+                <ro>Bun venit la Crater Bay!</ro>
+                <tr>Crater Bay'ya hoş geldin!</tr>
             </description>
             <iconFilename>Crater_Bay_preview.dds</iconFilename>
         </map>
@@ -192,4 +213,27 @@ Lista zmian 1.0.0.0:
         <brand name="LIMAGRAIN" title="Limagrain" image="icons/Limagrain_Logo.dds"/>
         <brand name="PONTE" title="Ponte Realestate" image="icons/Ponte_Logo.dds"/>
     </brands>
+    <!-- <EDGEGaming minimumVersion="1.0.0.0">
+        <customClasses>
+            <customClass name="GC_AddOnIcon"/>
+        </customClasses>
+        <invalidMods>
+            <invalidMod name="IndividualHudFruit" />
+        </invalidMods>
+    </EDGEGaming>
+    <extraSourceFiles>
+        <sourceFile filename="scripts/EG_Checker.lua" />
+        <sourceFile filename="scripts/EG_AddOnIcon.lua" />
+    </extraSourceFiles> -->
+    <credits><![CDATA[
+## Translations
+- Castiga
+- EDGE Gaming
+## Designers
+- Trojan horse
+- Castiga]]></credits>
+    <seasons version="11">
+        <type>map</type>
+        <dataFolder>data/</dataFolder>
+    </seasons>
 </modDesc>
