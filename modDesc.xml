@@ -3,7 +3,8 @@
     <author>EDGE Gaming / Castiga</author>
     <translationby>Castiga</translationby>
     <version>1.0.0.0</version>
-    <title><!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
+    <title>
+        <!-- en=English de=German jp=Japanese pl=Polish cz=Czech fr=French es=Spanish ru=Russian it=Italian pt=Portuguese hu=Hungary nl=Netherlands cs=Chinese (Simplified) ct=Chinese (Traditional) br=Brazilian-Portuguese tr=Turkish ro=Romanian kr=Korean -->
         <en>Crater Bay</en>
         <de>Crater Bay</de>
         <fr>Crater Bay</fr>
@@ -226,12 +227,12 @@ Lista zmian 1.0.0.0:
         <sourceFile filename="scripts/EG_AddOnIcon.lua" />
     </extraSourceFiles> -->
     <credits><![CDATA[
+## Contributors
+- Castiga, EDGE Gaming
 ## Translations
 - Castiga
-- EDGE Gaming
 ## Designers
-- Trojan horse
-- Castiga]]></credits>
+- Trojan horse, Castiga]]></credits>
     <seasons version="11">
         <type>map</type>
         <dataFolder>data/</dataFolder>
