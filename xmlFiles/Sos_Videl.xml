@@ -93,6 +93,7 @@
         <groundTypeMapping type="dirt"              layer="DIRT1"/>
         <groundTypeMapping type="dirt"              layer="DIRT2"/>
         <groundTypeMapping type="gravel"            layer="PLATEDAMAGED"/>
+        <groundTypeMapping type="gravel"            layer="STONEFLOORDMG"/>
         <groundTypeMapping type="gravel"            layer="RIVERSTONE"/>
         <groundTypeMapping type="rock"              layer="greenScreen" />
     </groundTypeMappings>
