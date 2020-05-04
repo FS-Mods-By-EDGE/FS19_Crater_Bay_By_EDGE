@@ -173,8 +173,10 @@ Lista zmian 1.0.0.0:
             <iconFilename>Crater_Bay_preview.dds</iconFilename>
         </map>
     </maps>
-    <!--<storeItems>
-    </storeItems>-->
+    <storeItems>
+        <storeItem xmlFilename="maps/data/vehicles/lizardWeight550/lizardWeight550.xml"/>
+        <storeItem xmlFilename="maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml"/>
+    </storeItems>
     <storeItems FilenamePrefix="xmlFiles/Sos_Videl_storeItems.xml"/>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="icons/EDGE_Brand_Logo.dds"/>
