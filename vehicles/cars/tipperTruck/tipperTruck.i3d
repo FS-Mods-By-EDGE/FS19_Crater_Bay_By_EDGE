@@ -20,11 +20,11 @@
     <File fileId="3" filename="$data/vehicles/cars/tipperTruck/tipperTruckWheels_specular.png"/>
     <File fileId="14" filename="$data/vehicles/cars/tipperTruck/tipperTruck_normal.png"/>
     <File fileId="15" filename="$data/vehicles/cars/tipperTruck/tipperTruck_specular.png"/>
-    <File fileId="22" filename="../../../maps/textures/gfx/vanBodyC_diffuse.dds"/>
-    <File fileId="23" filename="../../../maps/textures/gfx/vanBodyC_normal.dds"/>
-    <File fileId="19" filename="../../../maps/textures/gfx/vanBodyM_diffuse.dds"/>
-    <File fileId="20" filename="../../../maps/textures/gfx/vanBodyM_normal.dds"/>
-    <File fileId="21" filename="../../../maps/textures/gfx/vanBodyM_specular.dds"/>
+    <File fileId="22" filename="vanBodyC_diffuse.dds"/>
+    <File fileId="23" filename="vanBodyC_normal.dds"/>
+    <File fileId="19" filename="vanBodyM_diffuse.dds"/>
+    <File fileId="20" filename="vanBodyM_normal.dds"/>
+    <File fileId="21" filename="vanBodyM_specular.dds"/>
   </Files>
 
 
