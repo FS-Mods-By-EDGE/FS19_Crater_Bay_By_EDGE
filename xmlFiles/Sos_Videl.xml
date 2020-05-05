@@ -15,7 +15,7 @@
     <missionVehicles filename="$dataS/missionVehicles.xml"/>
     <farmlands filename="xmlFiles/Sos_Videl_farmlands.xml" />
     <npcs filename="xmlFiles/Sos_Videl_npcs.xml" />
-    <storeItems filename="$data/maps/mapDE_storeItems.xml"/>
+    <storeItems filename="xmlFiles/Sos_Videl_storeItems.xml"/>
     <culling xzOffset="100"/>
     <densityMap revision="1"/>
     <terrainLodTexture revision="1"/>
