@@ -47,59 +47,61 @@
         <!--<additionalFile filename="$data/maps/mapUS_sound.xml"/>-->
     </additionalFiles>
     <groundTypeMappings>
-        <!-- Base -->
-        <groundTypeMapping type="dirt"              layer="ROUGHDIRT"    />
-        <!-- Standard -->
-        <groundTypeMapping type="grassRough"        layer="GRASS"           paintableFoliageId="1"/>
-        <groundTypeMapping type="grassRough"        layer="GRASSROUGH"      paintableFoliageId="1"/>
-        <groundTypeMapping type="grassRough"        layer="GRASSROUGH"      paintableFoliageId="10"/>
-        <groundTypeMapping type="dirt"              layer="ANIMALMUD" />
-        <groundTypeMapping type="sand"              layer="BEACHSAND" />
-        <groundTypeMapping type="gravel"            layer="GRAVEL"/>
-        <groundTypeMapping type="gravel"            layer="GRAVELFINE"/>
-        <groundTypeMapping type="asphalt"           layer="CITYASPHALT"/>
-        <groundTypeMapping type="leaves"            layer="LEAVES"/>
-        <groundTypeMapping type="leaves"            layer="LEAVES"          paintableFoliageId="9"/>
-        <groundTypeMapping type="asphalt"           layer="ASPHALT"/>
-        <groundTypeMapping type="concrete"          layer="COBBLESTONE"/>
-        <groundTypeMapping type="concrete"          layer="CONCRETE"/>
-        <groundTypeMapping type="grass"             layer="TOWNGRASS"       paintableFoliageId="2"/>
-        <groundTypeMapping type="grass"             layer="GRASSTOWN"       paintableFoliageId="2"/>
-        <groundTypeMapping type="grassRough"        layer="GRASS"           paintableFoliageId="1"/>
-        <groundTypeMapping type="grassRough"        layer="GRASSMOSS"       paintableFoliageId="5" />
-        <groundTypeMapping type="grass"             layer="GRASSDRY"        paintableFoliageId="3" />
-        <groundTypeMapping type="shallowWater"      layer="waterPuddleClear01"/>
-        <groundTypeMapping type="shallowWater"      layer="waterPuddleMurky01"/>
-        <groundTypeMapping type="field"             layer="ANIMALMUD"/>
-        <groundTypeMapping type="concrete"          layer="PLATE"/>
-        <groundTypeMapping type="concrete"          layer="FLAGSTONE"/>
-        <groundTypeMapping type="shallowWater"      layer="SANDWET"/>
-        <groundTypeMapping type="sand"              layer="SANDROUGH" />
-        <groundTypeMapping type="field"             layer="ROUGHMUD" />
-        <groundTypeMapping type="dirt"              layer="MUDDARK" />
-        <groundTypeMapping type="sand"              layer="INDUSTRIALMUD"/>
-        <groundTypeMapping type="concrete"          layer="EPOXY"/>
-        <groundTypeMapping type="concrete"          layer="STONEFLOOR"/>
-        <!-- Special -->
-        <groundTypeMapping type="leaves"            layer="FORESTGROUND"    paintableFoliageId="4"/>
-        <groundTypeMapping type="leaves"            layer="FORESTGROUND"    paintableFoliageId="8"/>
-        <groundTypeMapping type="grass"             layer="LEAVES"          paintableFoliageId="7"/>
-        <groundTypeMapping type="rock"              layer="MOUNTAINROCK" />
-        <groundTypeMapping type="rock"              layer="MOUNTAINROCKDARK" />
-        <groundTypeMapping type="rock"              layer="GRANITEROCK" />
-        <groundTypeMapping type="dirt"              layer="DIRTLIGHT" />
-        <groundTypeMapping type="gravel"            layer="DUSTYROCK" />
-        <groundTypeMapping type="rock"              layer="CLIFFREDROCK" />
-        <groundTypeMapping type="asphalt"           layer="TILE"/>
-        <groundTypeMapping type="dirt"              layer="DIRT1"/>
-        <groundTypeMapping type="dirt"              layer="DIRT2"/>
-        <groundTypeMapping type="gravel"            layer="PLATEDAMAGED"/>
-        <groundTypeMapping type="gravel"            layer="STONEFLOORDMG"/>
-        <groundTypeMapping type="gravel"            layer="RIVERSTONE"/>
-        <groundTypeMapping type="rock"              layer="greenScreen" />
+        <groundTypeMapping type="dirt"                layer="ROUGHDIRT"    />
+        <groundTypeMapping type="grassRough01"        layer="GRASSROUGH"      paintableFoliageId="1"/>
+        <groundTypeMapping type="grass"               layer="GRASS"           paintableFoliageId="1"/>
+        <groundTypeMapping type="grassRough02"        layer="GRASSROUGH"      paintableFoliageId="10"/>
+        <groundTypeMapping type="dirt02"              layer="ANIMALMUD" />
+        <groundTypeMapping type="sand"                layer="BEACHSAND" />
+        <groundTypeMapping type="gravel"              layer="GRAVEL"/>
+        <groundTypeMapping type="gravel02"            layer="GRAVELFINE"/>
+        <groundTypeMapping type="asphalt"             layer="CITYASPHALT"/>
+        <groundTypeMapping type="leaves"              layer="LEAVES"/>
+        <groundTypeMapping type="leaves02"            layer="LEAVES"          paintableFoliageId="9"/>
+        <groundTypeMapping type="asphalt02"           layer="ASPHALT"/>
+        <groundTypeMapping type="concrete"            layer="COBBLESTONE"/>
+        <groundTypeMapping type="concrete02"          layer="CONCRETE"/>
+        <groundTypeMapping type="grass02"             layer="TOWNGRASS"       paintableFoliageId="2"/>
+        <groundTypeMapping type="grass03"             layer="GRASSTOWN"       paintableFoliageId="2"/>
+        <groundTypeMapping type="grassRough03"        layer="GRASS"           paintableFoliageId="1"/>
+        <groundTypeMapping type="grassRough04"        layer="GRASSMOSS"       paintableFoliageId="5" />
+        <groundTypeMapping type="grass04"             layer="GRASSDRY"        paintableFoliageId="3" />
+        <groundTypeMapping type="shallowWater01"      layer="waterPuddle01"/>
+        <groundTypeMapping type="shallowWater"        layer="waterPuddleClear01"/>
+        <groundTypeMapping type="shallowWater02"      layer="waterPuddleMurky01"/>
+        <groundTypeMapping type="field01"             layer="ANIMALMUD"/>
+        <groundTypeMapping type="concrete03"          layer="PLATE"/>
+        <groundTypeMapping type="concrete04"          layer="FLAGSTONE"/>
+        <groundTypeMapping type="shallowWater03"      layer="SANDWET"/>
+        <groundTypeMapping type="sand02"              layer="SANDROUGH" />
+        <groundTypeMapping type="field02"             layer="ROUGHMUD" />
+        <groundTypeMapping type="dirt03"              layer="MUDDARK" />
+        <groundTypeMapping type="sand03"              layer="INDUSTRIALMUD"/>
+        <groundTypeMapping type="concrete05"          layer="EPOXY"/>
+        <groundTypeMapping type="concrete06"          layer="STONEFLOOR"/>
+        <groundTypeMapping type="leaves03"            layer="FORESTGROUND"    paintableFoliageId="4"/>
+        <groundTypeMapping type="leaves04"            layer="FORESTGROUND"    paintableFoliageId="8"/>
+        <groundTypeMapping type="grass05"             layer="LEAVES"          paintableFoliageId="7"/>
+        <groundTypeMapping type="rock"                layer="MOUNTAINROCK" />
+        <groundTypeMapping type="rock02"              layer="MOUNTAINROCKDARK" />
+        <groundTypeMapping type="rock03"              layer="GRANITEROCK" />
+        <groundTypeMapping type="dirt04"              layer="DIRTLIGHT" />
+        <groundTypeMapping type="gravel03"            layer="DUSTYROCK" />
+        <groundTypeMapping type="rock04"              layer="CLIFFREDROCK" />
+        <groundTypeMapping type="asphalt03"           layer="TILE"/>
+        <groundTypeMapping type="dirt05"              layer="DIRT1"/>
+        <groundTypeMapping type="dirt06"              layer="DIRT2"/>
+        <groundTypeMapping type="gravel04"            layer="PLATEDAMAGED"/>
+        <groundTypeMapping type="gravel05"            layer="STONEFLOORDMG"/>
+        <groundTypeMapping type="gravel06"            layer="RIVERSTONE"/>
+        <groundTypeMapping type="grassRough05"        layer="GRASSROUGH"      paintableFoliageId="11"/>
+        <groundTypeMapping type="grassRough06"        layer="GRASSROUGH"      paintableFoliageId="12"/>
+        <groundTypeMapping type="rock05"              layer="greenScreen" />
     </groundTypeMappings>
     <paintableFoliages>
         <paintableFoliage id="1" layerName="grass"              firstDensityMapChannel="0" numDensityMapChannels="4" value="2"/>
+        <paintableFoliage id="11" layerName="decoFoliage"       firstDensityMapChannel="0" numDensityMapChannels="4" value="5"/>
+        <paintableFoliage id="12" layerName="decoFoliage"       firstDensityMapChannel="0" numDensityMapChannels="4" value="6"/>
 		<paintableFoliage id="2" layerName="decoFoliage"        firstDensityMapChannel="0" numDensityMapChannels="4" value="11"/>
         <paintableFoliage id="3" layerName="grassDry"           firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
         <paintableFoliage id="4" layerName="forestGrass"        firstDensityMapChannel="0" numDensityMapChannels="4" value="4"  />
@@ -116,6 +118,7 @@
 
     <!-- <sprayTypes filename="$data/maps/maps_sprayTypes.xml" /> -->
     <fruitTypes filename="maps/data/fruitTypes/maps_fruitTypes.xml" />
+    <groundTypes filename="xmlFiles/CBgroundTypes.xml" />
     <!-- <fruitTypes>
         <fruitType filename="$data/maps/fruitTypes/maps_fruitTypes.xml"/>
         <fruitType filename="maps/data/fruitTypes/maps_fruitTypes.xml" />

@@ -5,6 +5,7 @@
             <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="1.0" />
             <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="1.0" />
             <converter from="STRAW"                to="STRAW"            factor="1.0" />
+            <converter from="GRASSDENSE"           to="DRYGRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
         </fillTypeConverter>
     </fillTypeConverters>
 
@@ -46,7 +47,7 @@
         </fillType>
 		<fillType name="POPPY" title="$l10n_filltype_poppyseeds" showOnPriceTable="true" pricePerLiter="0.91" >
             <image hud="maps/data/fillTypes/huds/hud_fill_poppySeeds.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppySeeds_sml.dds" />
-            <physics massPerLiter="1.05" maxPhysicalSurfaceAngle="12" />
+            <physics massPerLiter="1.15" maxPhysicalSurfaceAngle="12" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
        </fillType>
       <fillType name="HEMP" title="$l10n_filltype_hemp" showOnPriceTable="true" pricePerLiter="0.85" >
@@ -132,6 +133,10 @@
             <physics massPerLiter="0.40" maxPhysicalSurfaceAngle="50" />
         </fillType>
         <fillType name="GRASS" title="$l10n_fillType_grass" showOnPriceTable="true"  pricePerLiter="0.045" >
+            <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_sml.dds" />
+            <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
+        </fillType>
+        <fillType name="GRASSDENSE" title="$l10n_fillType_grass" showOnPriceTable="false"  pricePerLiter="0.045" >
             <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_sml.dds" />
             <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
         </fillType>

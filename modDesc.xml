@@ -115,6 +115,27 @@ Lista zmian 1.0.0.0:
     <iconFilename>Crater_Bay_icon.dds</iconFilename>
     <multiplayer supported="true" requiredModName="FS19_Crater_Bay_By_EDGE"/>
     <l10n filenamePrefix="modDesc/modDesc_l10n"/>
+    <l10n>
+        <text name="filltype_poppyseeds">
+            <en>Poppy Seeds</en>
+            <de>Poppy Seeds</de>
+            <fr>Poppy Seeds</fr>
+        </text>
+        <text name="filltype_poppyflower">
+            <en>Poppy Flower</en>
+        </text>
+        <text name="fruittype_poppyflower">
+            <en>Poppy Flower</en>
+        </text>
+        <text name="fruittype_poppyseeds">
+            <en>Poppy Seeds</en>
+        </text>
+        <text name="map_stationLumberyard">
+            <en>Lumberyard</en>
+            <de>Lumberyard</de>
+            <fr>Lumberyard</fr>
+        </text>
+    </l10n>
     <maps>
         <map id="Crater Bay" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
             <title>

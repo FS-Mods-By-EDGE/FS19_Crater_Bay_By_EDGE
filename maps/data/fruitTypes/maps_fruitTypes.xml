@@ -122,6 +122,15 @@
             <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="1" destroyedByRoller="false" />
             <mapColors default="0.0423 0.1221 0.0252 1" colorBlind="1.0000 0.9473 0.0369 1"/>
         </fruitType>
+        <fruitType name="grassDense" shownOnMap="true" useForFieldJob="false">
+            <general startStateChannel="0" numStateChannels="4" />
+            <cultivation needsSeeding="false" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.02" plantsWeed="false"/>
+            <harvest minHarvestingGrowthState="1" maxHarvestingGrowthState="10" cutState="0" allowsPartialGrowthState="true" literPerSqm="4.50" />
+            <growth witheringNumGrowthStates="11" numGrowthStates="4" growthStateTime="36000000" resetsSpray="true" groundTypeChangeGrowthState="1" groundTypeChanged="GRASS" groundTypeChangeMask="GRASS CULTIVATOR PLOW SOWING SOWING_WIDTH" growthRequiresLime="false" regrows="true" firstRegrowthState="1" />
+            <windrow name="grass_windrow" litersPerSqm="4.50" />
+            <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="1" destroyedByRoller="false" />
+            <mapColors default="0.0423 0.1221 0.0252 1" colorBlind="1.0000 0.9473 0.0369 1"/>
+        </fruitType>
         <fruitType name="dryGrass" title="$l10n_fillType_dryGrass" showOnPriceTable="false" shownOnMap="false" useForFieldJob="false">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="false" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.02" />
@@ -154,7 +163,7 @@
 		<fruitType name="poppy" title="$l10n_fruittype_poppyflower" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
-            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" maxForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm=".88" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" maxForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="1.08" />
             <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="72000000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
             <destruction filterStart="2" filterEnd="7" state="8" />
@@ -163,7 +172,7 @@
 		<fruitType name="hemp" title="$l10n_fruittype_hemp" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.08" />
-            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="3.3" />
+            <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="1.03" />
             <growth witheringNumGrowthStates="8" numGrowthStates="7" growthStateTime="86400000" resetsSpray="true" groundTypeChangeGrowthState="-1" groundTypeChanged="NONE" growthRequiresLime="true" />
             <options lowSoilDensityRequired="true" increasesSoilDensity="false" consumesLime="true" startSprayState="0" />
             <destruction filterStart="2" filterEnd="7" state="8" />
@@ -184,7 +193,7 @@
         <fruitTypeCategory name="GRAINHEADER" >WHEAT BARLEY OAT CANOLA SOYBEAN HEMP POPPY <!--POPPYFLOWER--></fruitTypeCategory>
         <fruitTypeCategory name="MAIZEHEADER" >MAIZE SUNFLOWER</fruitTypeCategory>
         <fruitTypeCategory name="MAIZECUTTER" >MAIZE POPPY <!--POPPYFLOWER--></fruitTypeCategory>
-        <fruitTypeCategory name="DIRECTCUTTER" >GRASS WHEAT BARLEY OAT CANOLA SOYBEAN HEMP </fruitTypeCategory>
+        <fruitTypeCategory name="DIRECTCUTTER" >GRASS WHEAT BARLEY OAT CANOLA SOYBEAN HEMP</fruitTypeCategory>
         <fruitTypeCategory name="PICKUP" >GRASS DRYGRASS</fruitTypeCategory>
         <fruitTypeCategory name="SOWINGMACHINE" >WHEAT BARLEY OAT CANOLA SOYBEAN POPPY OILSEEDRADISH HEMP GRASS</fruitTypeCategory>
         <fruitTypeCategory name="SUGARCANE_PLANTER" >SUGARCANE</fruitTypeCategory>
@@ -197,6 +206,7 @@
             <converter from="MAIZE"     to="CHAFF"              factor="7.8" />
             <converter from="GRASS"     to="GRASS_WINDROW"      factor="1.0" windrowFactor="1.0" />
             <converter from="DRYGRASS"  to="DRYGRASS_WINDROW"   factor="1.0" windrowFactor="1.0" />
+            <converter from="GRASSDENSE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
             <converter from="WHEAT"     to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
             <converter from="BARLEY"    to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
             <converter from="OAT"       to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
@@ -210,6 +220,7 @@
         <fruitTypeConverter name="MOWER">
             <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
             <converter from="WHEAT"     to="STRAW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="GRASSDENSE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
             <converter from="BARLEY"    to="STRAW"         factor="1.0" windrowFactor="1.0" />
             <converter from="OAT"       to="STRAW"         factor="1.0" windrowFactor="1.0" />
         </fruitTypeConverter>
