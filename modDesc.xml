@@ -114,8 +114,7 @@ Lista zmian 1.0.0.0:
     </description>
     <iconFilename>Crater_Bay_icon.dds</iconFilename>
     <multiplayer supported="true" requiredModName="FS19_Crater_Bay_By_EDGE"/>
-    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
-    <l10n>
+    <l10n filenamePrefix="modDesc/modDesc_l10n">
         <text name="filltype_poppyseeds">
             <en>Poppy Seeds</en>
             <de>Poppy Seeds</de>

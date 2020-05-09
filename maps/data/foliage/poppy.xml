@@ -18,8 +18,8 @@
     <foliageLayer cellSize="8" objectMask="16711935" decalLayer="0" densityMapChannelOffset="0" numDensityMapChannels="4" numBlocksPerUnit="1.2" shapeSource="poppy.i3d">
         <foliageStateDefaults distanceMapLayer="1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.5" />
         <!-- default LOD distances etc -->
-        <foliageLodDefaults lod="0" viewDistance="20" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
-        <foliageLodDefaults lod="1" viewDistance="80" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <foliageLodDefaults lod="0" viewDistance="50" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
+        <foliageLodDefaults lod="1" viewDistance="160" blendOutDistance="2" atlasSize="1" atlasOffset="1 0" texCoords="0 0 1 1" />
         <!-- 1 0 0 0 - invisible -->
         <foliageState name="invisible" distanceMap="acre_fine_distance_diffuse.png" />
         <!-- 0 1 0 0 - green small -->
@@ -68,14 +68,14 @@
         <foliageState name="dead" distanceMap="foliage_poppy_distance6_diffuse.png" width="1.2" height="1.2">
             <foliageShape>
                 <foliageLod blockShape="0>4" />
-                <foliageLod blockShape="1>5" />
+                <foliageLod blockShape="1>4" />
             </foliageShape>
         </foliageState>
         <!-- 1 0 0 1 - harvested (cut) -->
         <foliageState name="harvested" distanceMap="foliage_poppy_distance7_diffuse.png" width="1.2" height="1.2">
             <foliageShape>
                 <foliageLod blockShape="0>5" />
-                <foliageLod blockShape="1>4" />
+                <foliageLod blockShape="1>5" />
             </foliageShape>
         </foliageState>
         <!--  -->

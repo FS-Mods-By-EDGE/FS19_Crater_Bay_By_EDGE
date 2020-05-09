@@ -17,9 +17,9 @@
     <groundType name="forestGround"     fallbacks="dirt"/>
     <groundType name="rock"             fallbacks="asphalt gravel dirt"/>
     <groundType type="dirt01"              fallbacks="dirt"    />
-    <groundType type="grassRough01"        fallbacks="grassRough dirt grass"/>
+    <groundType type="grassRough01"        fallbacks="dirt grass"/>
     <groundType type="grass01"             fallbacks="grass"/>
-    <groundType type="grassRough02"        fallbacks="grassRough dirt grass"/>
+    <groundType type="grassRough02"        fallbacks="dirt grass"/>
     <groundType type="dirt02"              fallbacks="dirt" />
     <groundType type="sand01"              fallbacks="sand" />
     <groundType type="gravel01"            fallbacks="gravel"/>
@@ -32,8 +32,8 @@
     <groundType type="concrete02"          fallbacks="concrete"/>
     <groundType type="grass02"             fallbacks="grass"/>
     <groundType type="grass03"             fallbacks="grass"/>
-    <groundType type="grassRough03"        fallbacks="grassRough dirt grass"/>
-    <groundType type="grassRough04"        fallbacks="grassRough dirt grass" />
+    <groundType type="grassRough03"        fallbacks="dirt grass"/>
+    <groundType type="grassRough04"        fallbacks="dirt grass" />
     <groundType type="grass04"             fallbacks="grass dirt" />
     <groundType type="shallowWater01"      fallbacks="shallowWater dirt"/>
     <groundType type="shallowWater02"      fallbacks="shallowWater dirt"/>
@@ -63,6 +63,6 @@
     <groundType type="gravel05"            fallbacks="gravel"/>
     <groundType type="gravel06"            fallbacks="gravel"/>
     <groundType type="rock05"              fallbacks="rock" />
-    <groundType type="grassRough05"        fallbacks="grassRough dirt grass"/>
-    <groundType type="grassRough06"        fallbacks="grassRough dirt grass" />
+    <groundType type="grassRough05"        fallbacks="dirt grass"/>
+    <groundType type="grassRough06"        fallbacks="dirt grass" />
 </groundTypes>

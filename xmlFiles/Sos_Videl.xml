@@ -114,6 +114,7 @@
     </paintableFoliages>
     <seasons>
         <mask filename="maps/weightMaps/SnowMaskInfoLayer.grle" /> <!-- Seasons mask file -->
+        <mission name="Vehicle Shop" type="snow" rewardScale="1" npcName="NPC_CB_01" location="EDGE Industries Island" text="Remove snow from EDGE Farm area" farmlandId="23" />
     </seasons>
 
     <!-- <sprayTypes filename="$data/maps/maps_sprayTypes.xml" /> -->

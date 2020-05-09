@@ -3,18 +3,19 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-			<!--Fruits-->
+		<text name="poppy" 								text="Poppy Seeds"/>
+		<text name="hemp" 								text="Hemp Plant"/>
 		<text name="filltype_poppyflower" 				text="Poppy Flower"/>
 		<text name="filltype_poppyseeds" 				text="Poppy Seeds"/>
 		<text name="fruittype_poppyflower" 				text="Poppy Flower"/>
 		<text name="fruittype_poppyseeds" 				text="Poppy Seeds"/>
 		<text name="Desc_PoppySeeds" 					text="Poppy Seeds is a Fruit."/>
+		<text name="poppy" 								text="Poppy Seeds"/>
+		<text name="hemp" 								text="Hemp Plant"/>
 		<text name="fruittype_hemp" 					text="Hemp Plant"/>
 		<text name="filltype_hemp" 						text="Hemp"/>
 		<text name="Desc_HempPlant" 					text="Hemp can be used for making allmost anything."/>
-			<!--Hotspots-->
         <text name="map_stationLumberyard"    			text="Lumberyard"/>
-			<!--Actions-->
         <text name="action_toggleFillmark" 				text="Fillmark on/off"/>
 	</texts>
 </l10n>
