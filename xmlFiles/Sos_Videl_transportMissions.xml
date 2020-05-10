@@ -2,128 +2,214 @@
 <transportMissions>
 
     <mission name="BOTTLE DELIVERY" npcIndex="1">
-        <pickupTrigger index="TRANSPORT03" title="Distillery" /> <!-- distillery -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- distillery -->
 
-        <dropoffTrigger index="TRANSPORT01" title="Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaLrain -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
 
         <object filename="$data/objects/pallets/missions/transportPalletBottles.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Bottles Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSoda.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Soda Pallet"/>
     </mission>
     <mission name="HARDWARE DELIVERY" rewardScale="2.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT02" title="$l10n_map_shop" /> <!--vehicleDealer -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!--vehicleDealer -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
 
-        <dropoffTrigger index="TRANSPORT06" title="Brennerei" /> <!-- distillery -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach" /> <!-- Beach -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaLrain -->
+        <dropoffTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
 
         <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletPlasticwraps.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Platic Wraps Pallet" />
     </mission>
     <mission name="WATER DELIVERY" npcIndex="8">
-        <pickupTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
-        <pickupTrigger index="TRANSPORT04" title="$l10n_station_supermarket" /> <!-- Supermarket -->
-        <pickupTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
 
-        <dropoffTrigger index="TRANSPORT01" title="$l10n_station_sugarmill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
         <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
-        <dropoffTrigger index="TRANSPORT06" title="$l10n_station_bgaBunker"/> <!-- Biogas Plant -->
-        <dropoffTrigger index="TRANSPORT07" title="$l10n_station_sawmill" /> <!-- Sawmill -->
-        <dropoffTrigger index="TRANSPORT08" title="$l10n_map_shop" /> <!-- Shop -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaLrain -->
+        <dropoffTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
 
         <object filename="$data/objects/pallets/missions/transportPalletWater.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
     </mission>
-    <mission rewardScale="1.5" name="PORT DELIVERY" npcIndex="1">
-        <pickupTrigger index="TRANSPORT04" title="$l10n_station_supermarket" /> <!-- Supermarket -->
-        <pickupTrigger index="TRANSPORT06" title="$l10n_station_bgaBunker"/> <!-- Biogas Plant -->
+    <mission rewardScale="1.5" name="FOOD DELIVERY" npcIndex="1">
+        <pickupTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery"/> <!-- Biogas Plant -->
 
-        <dropoffTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
-        <dropoffTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaLrain -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <dropoffTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
 
         <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
+        <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
     </mission>
     <mission name="SUGAR MILL DELIVERY" npcIndex="6">
-        <pickupTrigger index="TRANSPORT03" title="$l10n_station_harbor" /> <!-- Harbor -->
-        <pickupTrigger index="TRANSPORT05" title="$l10n_station_port01"/> <!-- Port Southeast -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <pickupTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
 
-        <dropoffTrigger index="TRANSPORT01" title="$l10n_station_sugarmill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_mill" /> <!-- Sugar Mill -->
 
         <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" />
     </mission>
     <mission name="MIX DELIVERY" rewardScale="2.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <pickupTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <pickupTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
 
-        <dropoffTrigger index="TRANSPORT04" title="$l10n_station_bgaBunker" /> <!-- bga -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaGrain -->
+        <dropoffTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <dropoffTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
 
         <object filename="$data/objects/pallets/missions/transportPalletCrates.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Crates Pallet"/>
         <object filename="$data/objects/pallets/missions/transportPalletWater.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Water Pallet" />
     </mission>
     <mission name="CORPORATE DELIVERY" rewardScale="2.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
-        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <pickupTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <pickupTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- LimaGrain -->
 
-        <dropoffTrigger index="TRANSPORT01" title="$l10n_map_shop" /> <!-- trashYard -->
-        <dropoffTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
 
         <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
     </mission>
-    <mission name="SEED & FERTILIZER DELIVERY" rewardScale="1.5" npcIndex="1">
-        <pickupTrigger index="TRANSPORT05" title="$l10n_station_sawmill" /> <!-- carpentry -->
-        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+    <mission name="SEEDFERTILIZER DELIVERY" rewardScale="1.5" npcIndex="1">
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <pickupTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <pickupTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
 
-        <dropoffTrigger index="TRANSPORT01" title="$l10n_map_shop" /> <!-- trashYard -->
-        <dropoffTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
 
         <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
     </mission>
     <mission name="COMPUTER DELIVERY" rewardScale="3.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
 
-        <dropoffTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <dropoffTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <dropoffTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <dropoffTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <dropoffTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <dropoffTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
 
         <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
     </mission>
-    <mission name="COMPUTER DELIVERY 2" rewardScale="4.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+    <mission name="BROKEN COMPUTER DELIVERY" rewardScale="4.0" npcIndex="1">
 
-        <dropoffTrigger index="TRANSPORT01" title="Brennerei" /> <!-- distillery -->
+        <pickupTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <pickupTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <pickupTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <pickupTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <pickupTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <pickupTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <pickupTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
+
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
 
         <object filename="$data/objects/pallets/missions/transportPalletWhiteBoxes.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="White Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletPlasticwraps.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Platic Wraps Pallet" />
     </mission>
     <mission name="BEER DELIVERY" rewardScale="5.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT03" title="Distillery" /> <!-- distillery -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
 
-        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
 
         <object filename="$data/objects/pallets/missions/transportPalletBottles.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Bottles Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSoda.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Soda Pallet"/>
     </mission>
     <mission name="FOOD DELIVERY" rewardScale="2.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
-        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+        <pickupTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <pickupTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
 
-        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <dropoffTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <dropoffTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
 
         <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
         <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
     </mission>
     <mission name="BALE DELIVERY" rewardScale="2.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+        <pickupTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <pickupTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
 
-        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <pickupTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <pickupTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <pickupTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <pickupTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <pickupTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <pickupTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
+        <pickupTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <pickupTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <pickupTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
 
-        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
-        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+        <object filename="data/objects/roundbales/roundbaleStraw_w112_d130.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Straw Bale" />
+        <object filename="data/objects/squarebales/baleStraw240.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Straw Bale" />
+        <object filename="data/objects/squarebales/baleGrass240.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Grass Bale" />
+        <object filename="data/objects/squarebales/baleHay240.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Hay Bale" />
+        <object filename="data/objects/squarebales/kuhnSW4014/baleSilage240.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Silage Bale" />
+        <object filename="data/objects/roundbales/roundbaleSilage_w112_d130.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Silage Bale" />
+        <object filename="data/objects/roundbales/roundbaleGrass_w112_d130.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Grass Bale" />
+        <object filename="data/objects/roundbales/roundbaleHay_w112_d130.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Hay Bale" />
     </mission>
     <mission name="MACHINERY DELIVERY" rewardScale="6.0" npcIndex="1">
-        <pickupTrigger index="TRANSPORT08" title="Food & Fertilizer Shop" /> <!-- FF_Shop -->
-        <pickupTrigger index="TRANSPORT09" title="EDGE Bailing Barn" /> <!-- Bailing Barn -->
+        <pickupTrigger index="TRANSPORT09" title="$l10n_map_shop" /> <!-- shop -->
 
-        <dropoffTrigger index="TRANSPORT07" title="EDGE Gaming" /> <!-- EDGE_Office -->
+        <dropoffTrigger index="TRANSPORT01" title="$l10n_Trashyard" /> <!-- trashYard -->
+        <dropoffTrigger index="TRANSPORT02" title="$l10n_animals_dealer" /> <!-- Animals Dealer -->
+        <dropoffTrigger index="TRANSPORT03" title="$l10n_distillery" /> <!-- Destillery -->
+        <dropoffTrigger index="TRANSPORT04" title="$l10n_minimarket" /> <!-- Minimarket -->
+        <dropoffTrigger index="TRANSPORT05" title="$l10n_EDGE"/> <!-- EDGE Island -->
+        <dropoffTrigger index="TRANSPORT06" title="$l10n_Beach"/> <!-- Beach plot -->
+        <dropoffTrigger index="TRANSPORT07" title="$l10n_mill" /> <!-- Sugar Mill -->
+        <dropoffTrigger index="TRANSPORT08" title="$l10n_Limagrain" /> <!-- Limagrain -->
+        <dropoffTrigger index="TRANSPORT10" title="$l10n_Oceanbeach" /> <!-- Ocean Beach -->
+        <dropoffTrigger index="TRANSPORT11" title="$l10n_station_sawmill" /> <!-- Sawmill -->
+        <dropoffTrigger index="TRANSPORT12" title="$l10n_Lemonways" /> <!-- Lemonways -->
 
-        <object filename="$data/objects/pallets/missions/transportPalletIcebox.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Ice Boxes Pallet" />
-        <object filename="$data/objects/pallets/missions/transportPalletSuitcases.i3d" min="2" max="6" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="Suitcases Pallet" />
+        <object filename="$mapdir$/maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml" min="1" max="1" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="$l10n_Tractor" />
+        <object filename="data/vehicles/farmtech/TDK1600/TDK1600.xml" min="1" max="2" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="$l10n_Trailer" />
+        <object filename="$mapdir$/maps/data/vehicles/lizardWeight550/lizardWeight550.xml" min="1" max="3" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="$l10n_Weight" />
+        <object filename="data/vehicles/agco/weight1500/weight1500.xml" min="1" max="3" size="1.8 0.9 1.4" offset="-0.9 0 -0.7" title="$l10n_Weight" />
     </mission>
 
 </transportMissions>
