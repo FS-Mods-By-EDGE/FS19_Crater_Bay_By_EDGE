@@ -45,12 +45,12 @@
             <physics massPerLiter="0.80" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-		<fillType name="POPPY" title="$l10n_filltype_poppyseeds" showOnPriceTable="true" pricePerLiter="0.91" >
+		<fillType name="POPPY" title="$l10n_fillType_poppy" showOnPriceTable="true" pricePerLiter="0.91" >
             <image hud="maps/data/fillTypes/huds/hud_fill_poppySeeds.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppySeeds_sml.dds" />
             <physics massPerLiter="1.15" maxPhysicalSurfaceAngle="12" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
        </fillType>
-      <fillType name="HEMP" title="$l10n_filltype_hemp" showOnPriceTable="true" pricePerLiter="0.85" >
+      <fillType name="HEMP" title="$l10n_fillType_hemp" showOnPriceTable="true" pricePerLiter="0.85" >
            <image hud="maps/data/fillTypes/huds/hud_fill_hemp.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_hemp_sml.dds" />
            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />

@@ -28,8 +28,13 @@
         <en><![CDATA[Welcome to Crater Bay.
 
 Crater Bay has emerged! a Huge Island Inspired by Nosy Be island (Antsiranana Province) off the North West coast of Madagascar with all FS19 features.
-You will find two Big main farm yards, with several smaller areas to Customize it just how you like it. this makes it ideal for multiplayer, but also great for Singleplayer with you being able to buy a second farm.
-The two Main farms are fitted with Automatic Lighting.
+You will find a rundown farm on a Huge, Hilly & overgown Island, the area has been left behind by active farmers due to bad ferry connection.
+Now its up to you to get the land back in functioning order.
+You start off with a small farm and a field on easy + Silo & Vehicles work your way all alound this huge map to set the land back in perfact idyllic condition.
+The map is Highly costumizeable with several large open areas & smaller areas made specificly for rebuilding, so you can Customize it just how you like it. this makes it ideal for multiplayer, but also great for Singleplayer as you will never run out of things to do.
+We have added a ton of ground textures and Foliage you can paint in game for total freedom!
+The two Main farm is placed pretty centered on the island, only a little to the north, and you have all facilities spread around you, and all you need to get your farm back in business.
+Can you make Crater Bay shine like it should? or will you find a ferry back to the mainland?
 
 Climate of Crater Bay:
 On the north-west coast, temperatures are high all year round, but being that it's directly exposed to the northwest monsoon, the rains are more abundant, so much so that they exceed 2,000 mm (80 in) in some areas.
@@ -39,25 +44,26 @@ Not only the period from November to March is rainy, but it's also hot and muggy
 The sun in Nosy Be shines very often in the dry period, from May to October. On average, there are almost 3,000 sunshine hours per year.
 In this part of the coast, the sea temperature is high throughout the year
 
+Info:
 The map is 4x size with loads of fields, and customizing opportunities.
-The map offers five fields, four can be combined to form a 10 ha huge one.
 The forester manager is also taken care of. The map Contains loads of Forest areas that offers enough trees for any Logger.
-The Offers several Bio Gas Plants (BGA) for the silage farmer.
+It Offers several Bio Gas Plants (BGA) for the silage farmer.
 As a special feature, a green floor is built in to create store photos that can be painted using the Landscaping Tool. In the shop there is also a green wall (without collision), which can be placed to create a green box.
 
-The terrain is surrounded by a mountain range. The only access road is unfortunately blocked by a landslide. Fortunately, there is you as the supplier of idyllic Crater Bay. So, what are you waiting for? Have fun!
+The terrain is surrounded by a Ocean. The only access is unfortunately via Ferry, and it doesnt seem to go to often. Fortunately, there is you as the supplier of idyllic Crater Bay. So, what are you waiting for? Have fun!
 
 Features:
 - greenbox by soil texture and placeable wall
-- 5 fields between 1 and 2.5 ha
-- forest areas with about 7 ha
+- 33 fields ranking in between Small & Huge
+- forest areas
 - biogas plant
-- 6 outlets for all standard fruits
-- with or without courtyard buildings and vehicles (depending on the level of difficulty)
+- Several outlets for all standard fruits
+- 2x New Fruits (also made more channels in the fruits so it doesnt restict on maximum fruits)
+- with or without Farm buildings and vehicles (depending on the level of difficulty)
 - AI-pedestrian and -traffic
-- two waterholes
+- Several water triggers, also Ocean all around.
 - a lime silo
-- mission system (including transport orders)
+- an Immersive mission system, with tons & tons of different Missions. (including transport orders)
 - livestock is not permanently installed
 
 -The map fully supports "Seasons" and "Courseplay Six".
@@ -67,7 +73,7 @@ Seasons GEO: Crater Bay is a GEO mod for Seasons that simulates agriculture in C
 with realistic temperatures, wind & rainfall taken from wather statistics from this area.
 
 Upcomming Updates 1.5.0.0:
-- Adding "RICE" as a crop to the map.]]></en>
+- Adding "RICE" as a crop to the map. As this is Madagascar's Biggest Crop Export!]]></en>
         <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
 Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
 Die Gebäude verfügen über eine automatische Beleuchtung.
@@ -108,33 +114,13 @@ Lista zmian 1.0.0.0:
         <hu>Üdvözöl Crater Bay!</hu>
         <jp>へようこそ すでに見たソスノフカ</jp>
         <kr>Crater Bay에 오신 것을 환영합니다!</kr>
-        <pt>Bem-vindo à Estância Lapacho!</pt>
+        <pt>Bem-vindo à Crater Bay!</pt>
         <ro>Bun venit la Crater Bay!</ro>
         <tr>Crater Bay'ya hoş geldin!</tr>
     </description>
     <iconFilename>Crater_Bay_icon.dds</iconFilename>
     <multiplayer supported="true" requiredModName="FS19_Crater_Bay_By_EDGE"/>
-    <l10n filenamePrefix="modDesc/modDesc_l10n">
-        <text name="filltype_poppyseeds">
-            <en>Poppy Seeds</en>
-            <de>Poppy Seeds</de>
-            <fr>Poppy Seeds</fr>
-        </text>
-        <text name="filltype_poppyflower">
-            <en>Poppy Flower</en>
-        </text>
-        <text name="fruittype_poppyflower">
-            <en>Poppy Flower</en>
-        </text>
-        <text name="fruittype_poppyseeds">
-            <en>Poppy Seeds</en>
-        </text>
-        <text name="map_stationLumberyard">
-            <en>Lumberyard</en>
-            <de>Lumberyard</de>
-            <fr>Lumberyard</fr>
-        </text>
-    </l10n>
+    <l10n filenamePrefix="modDesc/modDesc_l10n"/>
     <maps>
         <map id="Crater Bay" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="xmlFiles/Sos_Videl.xml" defaultVehiclesXMLFilename="xmlFiles/defaultVehicles.xml" defaultItemsXMLFilename="xmlFiles/mapItems.xml">
             <title>
@@ -158,9 +144,9 @@ Lista zmian 1.0.0.0:
                 <tr>Crater Bay</tr>
             </title>
             <description>
-                <en><![CDATA[Crater Bay. Here you can sell anything you'd like, From crop harvest to seeds and fertilizer.
-        Selling prices will fluctuate and show up on the PDA / Statistics.
-        The Buildings have automatic lighting.]]></en>
+                <en><![CDATA[Crater Bay has emerged! a Huge Island Inspired by Nosy Be island (Antsiranana Province) off the North West coast of Madagascar with all FS19 features.
+You will find a rundown farm on a Huge, Hilly & overgown Island, the area has been left behind by active farmers due to bad ferry connection.
+Now its up to you to get the land back in functioning order.]]></en>
                 <de><![CDATA[Multi Verkaufsstation. Hier können Sie alles verkaufen, was Sie möchten, von der Ernte bis zu Saatgut und Dünger.
         Die Verkaufspreise schwanken und erscheinen auf dem PDA / der Statistik.
         Die Gebäude verfügen über eine automatische Beleuchtung.]]></de>
@@ -186,7 +172,7 @@ Lista zmian 1.0.0.0:
                 <hu>Üdvözöl Crater Bay!</hu>
                 <jp>エスタンシアラパチョにようこそ！</jp>
                 <kr>Crater Bay에 오신 것을 환영합니다!</kr>
-                <pt>Bem-vindo à Estância Lapacho!</pt>
+                <pt>Bem-vindo à Crater Bay!</pt>
                 <ro>Bun venit la Crater Bay!</ro>
                 <tr>Crater Bay'ya hoş geldin!</tr>
             </description>
