@@ -36,4 +36,10 @@
 		<text name="BALE DELIVERY" 						text="Bale Delivery"/>
 		<text name="MACHINERY DELIVERY" 				text="Machinery Delivery"/>
 	</texts>
+	<filltypes>
+		<fillType name="fillType_poppyFlower" 	title="Poppy Flower" 	text="Poppy Flower"/>
+		<fillType name="fillType_hemp" 			title="Hemp"			text="Hemp"/>
+		<fillType name="hemp" 					title="Hemp"			text="Hemp Plant"/>
+		<fillType name="poppy" 					title="Poppy Seeds"		text="Poppy Seeds"/>
+	</filltypes>
 </l10n>
