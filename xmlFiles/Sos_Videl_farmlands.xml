@@ -73,6 +73,5 @@
         <farmland id="70" priceScale="0.6"    npcName="NPC_CB_016" /><!-- MountainForest -->
         <farmland id="71" priceScale="0.8"    npcName="NPC_CB_050" /><!-- MountainTop -->
         <farmland id="72" priceScale="1.4"    npcName="NPC_CB_050" /><!-- Limagrain -->
-        <farmland id="365" priceScale="1.0"   npcName="NPC_CB_016" /><!-- GrassField -->
     </farmlands>
 </map>

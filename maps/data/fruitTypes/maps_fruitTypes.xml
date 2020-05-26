@@ -122,7 +122,7 @@
             <options lowSoilDensityRequired="false" increasesSoilDensity="false" consumesLime="false" startSprayState="1" destroyedByRoller="false" />
             <mapColors default="0.0423 0.1221 0.0252 1" colorBlind="1.0000 0.9473 0.0369 1"/>
         </fruitType>
-        <fruitType name="grassDense" shownOnMap="true" useForFieldJob="false">
+        <fruitType name="decoFoliage" shownOnMap="true" useForFieldJob="false">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="false" allowsSeeding="false" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.02" plantsWeed="false"/>
             <harvest minHarvestingGrowthState="1" maxHarvestingGrowthState="10" cutState="0" allowsPartialGrowthState="true" literPerSqm="4.50" />
@@ -160,7 +160,7 @@
             <herbicideReplace source="3" target="5" />
             <mapColors default="0.5210 0.2329 0.3862 1" colorBlind="0.0409 0.0409 0.0409 1"/>
         </fruitType>
-		<fruitType name="poppy" title="$l10n_fillType_poppyFlower" shownOnMap="true" useForFieldJob="true">
+		<fruitType name="poppy" title="POPPY_FLOWER" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.05" />
             <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" maxForageGrowthState="4" allowsPartialGrowthState="false" literPerSqm="1.08" />
@@ -169,7 +169,7 @@
             <destruction filterStart="2" filterEnd="7" state="8" />
             <mapColors default="0.894 0.00000 0.192 1" colorBlind="0.0409  0.0000  0.63922"/>
         </fruitType>
-		<fruitType name="hemp" title="$l10n_fillType_hemp" shownOnMap="true" useForFieldJob="true">
+		<fruitType name="hemp" title="HEMP_PLANT" shownOnMap="true" useForFieldJob="true">
             <general startStateChannel="0" numStateChannels="4" />
             <cultivation needsSeeding="true" allowsSeeding="true" useSeedingWidth="false" directionSnapAngle="0" alignsToSun="false" seedUsagePerSqm="0.08" />
             <harvest minHarvestingGrowthState="4" maxHarvestingGrowthState="6" cutState="8" minForageGrowthState="3" allowsPartialGrowthState="false" literPerSqm="1.03" />
@@ -206,7 +206,7 @@
             <converter from="MAIZE"     to="CHAFF"              factor="7.8" />
             <converter from="GRASS"     to="GRASS_WINDROW"      factor="1.0" windrowFactor="1.0" />
             <converter from="DRYGRASS"  to="DRYGRASS_WINDROW"   factor="1.0" windrowFactor="1.0" />
-            <converter from="GRASSDENSE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="DECOFOLIAGE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
             <converter from="WHEAT"     to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
             <converter from="BARLEY"    to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
             <converter from="OAT"       to="CHAFF"              factor="4.0" windrowFactor="1.0" /> <!-- straw 1:1 conversion -->
@@ -220,7 +220,7 @@
         <fruitTypeConverter name="MOWER">
             <converter from="GRASS"     to="GRASS_WINDROW" factor="1.0" windrowFactor="1.0" />
             <converter from="WHEAT"     to="STRAW"         factor="1.0" windrowFactor="1.0" />
-            <converter from="GRASSDENSE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="DECOFOLIAGE"     to="GRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
             <converter from="BARLEY"    to="STRAW"         factor="1.0" windrowFactor="1.0" />
             <converter from="OAT"       to="STRAW"         factor="1.0" windrowFactor="1.0" />
         </fruitTypeConverter>

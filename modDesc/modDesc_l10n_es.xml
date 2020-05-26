@@ -3,14 +3,13 @@
 <author>Edge Gaming / Castiga</author>
 <translationby>Castiga</translationby>
 	<texts>
-		<text name="fillType_poppy" 					text="Poppy Seeds"/>
-		<text name="fillType_poppyFlower" 				text="Poppy Flower"/>
+		<text name="POPPY" 								text="Poppy Seeds"/>
+		<text name="POPPY_FLOWER" 						text="Poppy Flower"/>
 		<text name="desc_poppy" 						text="Poppy Seeds is a Fruit, mostly used in making Bread."/>
-		<text name="poppy" 								text="Poppy Seeds"/>
-		<text name="hemp" 								text="Hemp Plant"/>
-		<text name="fillType_hemp" 						text="Hemp"/>
+		<text name="HEMP_PLANT" 						text="Hemp Plant"/>
+		<text name="HEMP" 								text="Hemp"/>
 		<text name="desc_hemp" 							text="Hemp can be used for making allmost anything."/>
-        <text name="lumberyard"    						text="Lumberyard"/>
+        <text name="LUMBERYARD"    						text="Lumberyard"/>
         <text name="action_toggleFillmark" 				text="Fillmark on/off"/>
         <text name="tm_distillery" 						text="Distillery"/>
         <text name="tm_Trashyard" 						text="Trashyard"/>
@@ -22,23 +21,18 @@
         <text name="tm_Lemonways" 						text="Lemonways"/>
         <text name="tm_Oceanbeach" 						text="Ocean Beach Kitchen"/>
 			<!--Missions-->
-		<text name="BOTTLE DELIVERY" 					text="Bottle Delivery"/>
-		<text name="HARDWARE DELIVERY" 					text="Hardware Delivery"/>
-		<text name="WATER DELIVERY" 					text="Water Delivery"/>
-		<text name="FOOD DELIVERY" 						text="Food Delivery"/>
-		<text name="SUGAR MILL DELIVERY" 				text="Sugar Mill Delivery"/>
-		<text name="MIX DELIVERY" 						text="Moxed Goods Delivery"/>
-		<text name="CORPORATE DELIVERY" 				text="Corporate Delivery"/>
-		<text name="SEEDFERTILIZER DELIVERY" 			text="Seed & Fertilizer Delivery"/>
-		<text name="COMPUTER DELIVERY" 					text="Computer Delivery"/>
-		<text name="BROKEN COMPUTER DELIVERY" 			text="Broken Computer Delivery"/>
-		<text name="BEER DELIVERY" 						text="Beer Delivery"/>
-		<text name="BALE DELIVERY" 						text="Bale Delivery"/>
-		<text name="MACHINERY DELIVERY" 				text="Machinery Delivery"/>
+		<text name="BOTTLE_DELIVERY" 					text="Bottle Delivery"/>
+		<text name="HARDWARE_DELIVERY" 					text="Hardware Delivery"/>
+		<text name="WATER_DELIVERY" 					text="Water Delivery"/>
+		<text name="FOOD_DELIVERY" 						text="Food Delivery"/>
+		<text name="SUGAR_MILL_DELIVERY" 				text="Sugar Mill Delivery"/>
+		<text name="MIX_DELIVERY" 						text="Moxed Goods Delivery"/>
+		<text name="CORPORATE_DELIVERY" 				text="Corporate Delivery"/>
+		<text name="SEEDFERTILIZER_DELIVERY" 			text="Seed & Fertilizer Delivery"/>
+		<text name="COMPUTER_DELIVERY" 					text="Computer Delivery"/>
+		<text name="BROKEN_COMPUTER_DELIVERY" 			text="Broken Computer Delivery"/>
+		<text name="BEER_DELIVERY" 						text="Beer Delivery"/>
+		<text name="BALE_DELIVERY" 						text="Bale Delivery"/>
+		<text name="MACHINERY_DELIVERY" 				text="Machinery Delivery"/>
 	</texts>
-	<filltypes>
-		<fillType name="fillType_poppyFlower" 	title="Poppy Flower" 	text="Poppy Flower"/>
-		<fillType name="fillType_hemp" 			title="Hemp"			text="Hemp"/>
-		<fillType name="hemp" 					title="Hemp"			text="Hemp Plant"/>
-		<fillType name="poppy" 					title="Poppy Seeds"		text="Poppy Seeds"/>
-	</filltypes>
+</l10n>

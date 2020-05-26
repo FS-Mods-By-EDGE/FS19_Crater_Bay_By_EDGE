@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 
-<i3D name="soybean" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+<i3D name="HEMP_PLANT" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
   <Asset>
     <Export program="GIANTS Editor 64bit" version="8.1.0"/>
   </Asset>
@@ -22,14 +22,14 @@
 
 
   <Materials>
-    <Material name="millet_mat" materialId="5" customShaderId="2">
+    <Material name="hemp_mat" materialId="5" customShaderId="2">
       <Texture fileId="1"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
       <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
       <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
       <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
     </Material>
-    <Material name="millet03LOD_mat" materialId="6" customShaderId="2" customShaderVariation="BILLBOARD">
+    <Material name="hemp03LOD_mat" materialId="6" customShaderId="2" customShaderVariation="BILLBOARD">
       <Texture fileId="8"/>
       <Normalmap fileId="9"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
@@ -37,7 +37,7 @@
       <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
       <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="0 0 0 0"/>
     </Material>
-    <Material name="millet05LOD_mat" materialId="8" customShaderId="2" customShaderVariation="BILLBOARD">
+    <Material name="hemp05LOD_mat" materialId="8" customShaderId="2" customShaderVariation="BILLBOARD">
       <Texture fileId="12"/>
       <Normalmap fileId="13"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
@@ -45,7 +45,7 @@
       <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
       <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="0 0 0 0"/>
     </Material>
-    <Material name="millet04LOD_mat" materialId="4" customShaderId="2" customShaderVariation="BILLBOARD">
+    <Material name="hemp04LOD_mat" materialId="4" customShaderId="2" customShaderVariation="BILLBOARD">
       <Texture fileId="10"/>
       <Normalmap fileId="11"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
@@ -53,7 +53,7 @@
       <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
       <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="0 0 0 0"/>
     </Material>
-    <Material name="millet02LOD_mat" materialId="7" customShaderId="2" customShaderVariation="BILLBOARD">
+    <Material name="hemp02LOD_mat" materialId="7" customShaderId="2" customShaderVariation="BILLBOARD">
       <Texture fileId="6"/>
       <Normalmap fileId="7"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>
@@ -61,7 +61,7 @@
       <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
       <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="0 0 0 0"/>
     </Material>
-    <Material name="millet01LOD_mat" materialId="9" customShaderId="2" customShaderVariation="BILLBOARD">
+    <Material name="hemp01LOD_mat" materialId="9" customShaderId="2" customShaderVariation="BILLBOARD">
       <Texture fileId="4"/>
       <Normalmap fileId="5"/>
       <CustomParameter name="fadeInOutStartEnd" value="-5 0 70 75"/>

@@ -23,7 +23,7 @@
     <tipCollision revision="1"/>
     <hotspots>
         <hotspot name="Shop" fullName="$l10n_map_shop" imageUVs="520 8 240 240" xMapPos="157.5" zMapPos="-1556.7" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
-        <hotspot name="WoodSelling1" fullName="$l10n_lumberyard" imageUVs="520 520 240 240" baseColor="0.9559 0.5647 0.0423 1" xMapPos="1112.5" zMapPos="-684.6" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="LUMBERYARD" fullName="LUMBERYARD" imageUVs="520 520 240 240" baseColor="0.9559 0.5647 0.0423 1" xMapPos="1112.5" zMapPos="-684.6" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
         <hotspot name="Manure01" fullName="Manure Import" imageUVs="520 520 240 240" baseColor="0.40 0.26 0.13 1" xMapPos="504.7" zMapPos="-508.6" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
         <hotspot name="Slurry01" fullName="Slurry Import" imageUVs="520 520 240 240" baseColor="0.60 0.40 0.08 1" xMapPos="533.1" zMapPos="-526.9" blinking="false" persistent="false" showName="true" hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
         <!-- <hotspot name="Cows" fullName="$l10n_animals_cowPasture" imageUVs="520 264 240 240" xMapPos="464" zMapPos="-318" blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
@@ -126,7 +126,7 @@
     </fruitTypes> -->
     <!-- <baleTypes filename="$data/maps/maps_baleTypes.xml" /> -->
     <!-- <treeTypes filename="$data/maps/maps_treeTypes.xml" /> -->
-    <!-- <densityMapHeightTypes filename="$data/maps/maps_densityMapHeightTypes.xml" /> -->
+    <densityMapHeightTypes filename="xmlFiles/maps_densityMapHeightTypes.xml" />
     <!-- <helpers filename="$data/maps/maps_helpers.xml" /> -->
     <fillTypes filename="maps/data/fillTypes/maps_fillTypes.xml" />
 

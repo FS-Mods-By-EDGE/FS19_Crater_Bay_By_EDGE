@@ -5,7 +5,7 @@
             <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="1.0" />
             <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="1.0" />
             <converter from="STRAW"                to="STRAW"            factor="1.0" />
-            <converter from="GRASSDENSE"           to="DRYGRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
+            <converter from="DECOFOLIAGE"           to="DRYGRASS_WINDROW"         factor="1.0" windrowFactor="1.0" />
         </fillTypeConverter>
     </fillTypeConverters>
 
@@ -45,12 +45,12 @@
             <physics massPerLiter="0.80" maxPhysicalSurfaceAngle="15" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
         </fillType>
-		<fillType name="POPPY" title="$l10n_fillType_poppy" showOnPriceTable="true" pricePerLiter="0.91" >
+		<fillType name="POPPY" title="POPPY" showOnPriceTable="true" pricePerLiter="0.91" >
             <image hud="maps/data/fillTypes/huds/hud_fill_poppySeeds.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppySeeds_sml.dds" />
             <physics massPerLiter="1.15" maxPhysicalSurfaceAngle="12" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
        </fillType>
-      <fillType name="HEMP" title="$l10n_fillType_hemp" showOnPriceTable="true" pricePerLiter="0.85" >
+      <fillType name="HEMP" title="HEMP" showOnPriceTable="true" pricePerLiter="0.85" >
            <image hud="maps/data/fillTypes/huds/hud_fill_hemp.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_hemp_sml.dds" />
            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
            <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />
@@ -136,7 +136,7 @@
             <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_sml.dds" />
             <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
         </fillType>
-        <fillType name="GRASSDENSE" title="$l10n_fillType_grass" showOnPriceTable="false"  pricePerLiter="0.045" >
+        <fillType name="DECOFOLIAGE" title="$l10n_fillType_grass" showOnPriceTable="false"  pricePerLiter="0.045" >
             <image hud="$dataS2/menu/hud/fillTypes/hud_fill_grass.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_grass_sml.dds" />
             <physics massPerLiter="0.44" maxPhysicalSurfaceAngle="50" />
         </fillType>
@@ -356,7 +356,7 @@
             <image hud="$dataS2/menu/hud/fillTypes/hud_fill_chicken.dds" hudSmall="$dataS2/menu/hud/fillTypes/hud_fill_chicken_sml.dds" />
             <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
         </fillType>
-        <!-- <fillType name="POPPYFLOWER" title="$l10n_filltype_poppyflower" showOnPriceTable="true" pricePerLiter="1.79" >
+        <!-- <fillType name="POPPYFLOWER" title="POPPYFLOWER" showOnPriceTable="true" pricePerLiter="1.79" >
             <image hud="maps/data/fillTypes/huds/hud_fill_poppy.dds" hudSmall="maps/data/fillTypes/huds/hud_fill_poppy_sml.dds" />
             <physics massPerLiter="0.5" maxPhysicalSurfaceAngle="25" />
             <pallet filename="$data/objects/pallets/fillablePallet/fillablePallet.xml" />

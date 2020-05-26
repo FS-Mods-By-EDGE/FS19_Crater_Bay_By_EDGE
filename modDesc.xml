@@ -232,18 +232,16 @@ Now its up to you to get the land back in functioning order.]]></en>
     <storeItems>
         <storeItem xmlFilename="maps/data/vehicles/lizardWeight550/lizardWeight550.xml"/>
         <storeItem xmlFilename="maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/farmMansion.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/farmSilo.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/farmStorageBarn.xml"/>
-        <storeItem xmlFilename="maps/data/placeables/gasStation.xml"/>
     </storeItems>
+    <filltypes>
+        <fillType name="POPPY_FLOWER" title="POPPY_FLOWER"/>
+        <fillType name="HEMP" title="HEMP"/>
+        <fillType name="HEMP_PLANT" title="HEMP_PLANT"/>
+        <fillType name="POPPY" title="POPPY"/>
+    </filltypes>
     <brands>
         <brand name="EDGE" title="EDGE Industries" image="icons/EDGE_Brand_Logo.dds"/>
-        <brand name="BOBS" title="Bob&apos;s Burgers" image="icons/Bobs_Burgers_Logo.dds"/>
-        <brand name="BECKS" title="Beck&apos;s Brewery" image="icons/Becks_Logo.dds"/>
-        <brand name="BRU" title="EDGE Industries" image="icons/Bru_Logo.dds"/>
         <brand name="LIMAGRAIN" title="Limagrain" image="icons/Limagrain_Logo.dds"/>
-        <brand name="PONTE" title="Ponte Realestate" image="icons/Ponte_Logo.dds"/>
         <brand name="AJTECH" title="AJ TECH" image="icons/brand_ajTech.png"/>
     </brands>
     <!-- <EDGEGaming minimumVersion="1.0.0.0">
