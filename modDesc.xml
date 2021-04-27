@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="47">
-    <author>EDGE Gaming / Castiga</author>
+<modDesc descVersion="53">
+    <author>EDGE Gaming</author>
     <translationby>Castiga</translationby>
     <version>1.0.0.0</version>
     <title>
@@ -232,6 +232,10 @@ Now its up to you to get the land back in functioning order.]]></en>
     <storeItems>
         <storeItem xmlFilename="maps/data/vehicles/lizardWeight550/lizardWeight550.xml"/>
         <storeItem xmlFilename="maps/data/vehicles/DeutzAgroStar661/deutzAgroStar661.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/gasStation.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/Food_n_Fertilizer_Shop/FoodFertilizerShop.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/Multi_Selling_Station/data/MultiSellingStationDark.xml"/>
+        <storeItem xmlFilename="maps/data/placeables/StrawBarn_SellingSpot/data/StrawBarn_SellingSpot_White.xml"/>
     </storeItems>
     <filltypes>
         <fillType name="POPPY_FLOWER" title="POPPY_FLOWER"/>
@@ -263,8 +267,4 @@ Now its up to you to get the land back in functioning order.]]></en>
 - Castiga
 ## Designers
 - Trojan horse, Castiga]]></credits>
-    <seasons version="11">
-        <type>map</type>
-        <dataFolder>data/</dataFolder>
-    </seasons>
 </modDesc>
